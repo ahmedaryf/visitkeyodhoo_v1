@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --dark-color: #000074;
+    --main-color: #000870;
+    --main-light: #006ABF;
+    --secondary: #00BAC7;
+    --secondary-light: #00E0BF;
+    --light-theme-color: #FCF7FF;
+    --dark-theme-color: #4A4453;
+    --bg-theme-light: #D5EFF9;
+}
+  /* -------------------------------------------------------------------- */
+  html{
+      padding: 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      overflow-x: hidden;
+  }
+  @media only screen and (max-width: 850px) {
+    html{
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+    }
+  }
+  body{
+    background: var(--bg-theme-light)
+
+  }
+ 
+  /* navebar starts------------------------------------------------------------------------- */
+ 
+  /* -------navbar end------------------------------------------------------------ */
+  
+
+
+.g-heading{
+    text-align: center;
+    margin-top: 10px;
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+
+.gallery{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: 1fr;
+  gap: .5em;
+  justify-items: center;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+
+}
+.gallery-item{
+  margin: .5em;
+  padding: 1em;
+}
+img{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  justify-content: center;
+  border-radius: 10px;
+  border: 5px solid #ccc;
+}

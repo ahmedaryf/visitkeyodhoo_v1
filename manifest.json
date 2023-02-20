@@ -1,0 +1,22 @@
+{
+    "name" : "visit keyodhoo",
+    "short_name": "visit keyodhoo",
+    "start_url": ".",
+    "background_color": "#D5EFF9",
+    "theme_color": "#000870",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/vk_logo.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/logo-tp-1.png",
+            "sizes": "1000x1000",
+            "type": "image/png"
+        }
+    ]
+
+}
